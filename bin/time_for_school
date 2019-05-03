@@ -17,12 +17,19 @@ jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Jo"
 
+ethan = Student.new
+ethan.first_name = "Ethan"
+ethan.last_name = "Sagin"
+
 some_knowledge = avi.teach 
 
 steve.learn(some_knowledge)
 steve.learn(some_knowledge)
+ethan.learn(some_knowledge)
 
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.last}' from Avi"
+
+puts "Ethan just learned this important knowledge: '#{ethan.knowledge.first}' from Avi" 
 
 puts "Everything Steve has learned: '#{steve.knowledge}"
